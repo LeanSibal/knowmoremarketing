@@ -1,0 +1,59 @@
+.gradient {
+	background: #8dbe53;
+	background: -moz-linear-gradient(-45deg, #8dbe53 0%, #41938d 100%);
+	background: -webkit-linear-gradient(-45deg, #8dbe53 0%,#41938d 100%);
+	background: linear-gradient(135deg, #8dbe53 0%,#41938d 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dbe53', endColorstr='#41938d',GradientType=1 );
+}
+.btn {
+	padding:20px 30px;
+	border-radius:30px;
+}
+.btn.gradient {
+	color:#f9f9f9;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.primary {
+	color:#41938d;
+}
+.bg-primary {
+	background-color:#41938d;
+}
+.secondary {
+	color:#8dbe53;
+}
+.bg-secondary {
+	background-color:#8dbe53;
+}
+.secondary-light {
+	color:#afec67;
+}
+.bg-secondary-light {
+	background-color:#afec67;
+}
+.black {
+	color:#16201f;
+}
+.bg-black {
+	background-color:#16201f;
+}
+.dark {
+	color:#595959;
+}
+.bg-dark {
+	background-color:#595959;
+}
+.grey {
+	color:rgba(22,32,31,0.5);
+}
+.bg-grey {
+	background-color:rgba(22,32,31,0.5);
+}
+.white {
+	color:#ffffff;
+}
+.bg-white {
+	background-color:#ffffff;
+}
